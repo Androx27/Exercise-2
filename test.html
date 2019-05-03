@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="deskripsi" content="Tugas ke-2 Hacktiv8 JS Course Batch 16 by Androx27">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My simple Calculator with HTML, CSS + Javascript</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+    <div class="container">
+	<div class="calc-container">
+
+		<h1>Simple Calculator</h1>
+
+		<input id="box" value="" type="text" readonly placeholder="0"><br/>
+
+		<div class="btn-container">
+		<div class="row">
+				<button class="btn" onclick="nomor('1')"><strong>1</strong></button>
+				<button class="btn" onclick="nomor('2')"><strong>2</strong></button>
+				<button class="btn" onclick="nomor('3')"><strong>3</strong></button>
+				<button class="btn cbtn" onclick="delback()"><strong>⟸</strong></button>
+		</div>
+		<div class="row">
+				<button class="btn" onclick="nomor('4')"><strong>4</strong></button>
+				<button class="btn" onclick="nomor('5')"><strong>5</strong></button>
+				<button class="btn" onclick="nomor('6')"><strong>6</strong></button>
+				<button class="btn" onclick="nomor('+')"><strong>+</strong></button>
+		</div>
+		<div class="row">
+				<button class="btn" onclick="nomor('7')"><strong>7</strong></button>
+				<button class="btn" onclick="nomor('8')"><strong>8</strong></button>
+				<button class="btn" onclick="nomor('9')"><strong>9</strong></button>
+				<button class="btn" onclick="nomor('-')"><strong>-</strong></button>
+		</div>
+		<div class="row">
+				<button class="btn" onclick="nomor('.')"><strong>.</strong></button>
+				<button class="btn" onclick="nomor('0')"><strong>0</strong></button>
+				<button class="btn" onclick="nomor('00')"><strong>00</strong></button>
+				<button class="btn" onclick="nomor('*')"><strong>*</strong></button>
+				
+		</div>
+		<div class="row">
+				<button class="btn cbtn" onclick="clearme()"><strong>C</strong></button>
+				<button class="btn solvebtn" onclick="solve()"><strong>=</strong></button>
+				<button class="btn" onclick="nomor('/')"><strong>/</strong></button>
+		</div>	
+		
+		</div>
+
+
+	</div>
+</div>
+
+	<footer id="footer">Designed by <a href="https://github.com/Androx27" target="_blank" style="color:orangered">Androx27</a></footer>
+</body>
+</html>
